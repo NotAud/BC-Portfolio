@@ -1,0 +1,15 @@
+.portfolio-item {
+  width: 100%;
+  transition: all 0.2s;
+  color: white;
+}
+
+.portfolio-item:hover {
+  scale: 1.02;
+}
+
+.portfolio-item > img {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 5px;
+}
