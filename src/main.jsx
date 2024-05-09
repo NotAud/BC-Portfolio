@@ -18,6 +18,10 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
+        path: "/",
+        element: <AboutMe />
+      },
+      {
         path: "/about-me",
         element: <AboutMe />,
       },
@@ -32,7 +36,7 @@ const router = createBrowserRouter([
       {
         path: "/resume",
         element: <Resume />,
-      },
+      }
     ]
   },
 ]);
