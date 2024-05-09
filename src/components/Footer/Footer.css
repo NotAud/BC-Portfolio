@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 10px;
+}
+
+footer > a > svg {
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+footer > a > svg:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer > span {
+  font-size: 0.8rem;
+}
